@@ -20,7 +20,7 @@ for item in lst:
     for each in item:
         print(each)
 
-
+#Bubble sort 
 
 lst = [3,0,6,33,55,11,2,4,77,9,10,100]
 
