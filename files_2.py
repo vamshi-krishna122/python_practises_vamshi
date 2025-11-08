@@ -1,34 +1,3 @@
-# You have an input file called expenses.csv that stores daily expense records in this format:
-# 2025-10-01,Food,250
-# 2025-10-01,Travel,100
-# 2025-10-02,Shopping,400
-# 2025-10-02,Food,150
-# 2025-10-03,Entertainment,300
-# 2025-10-03,Food,200
-# 2025-10-04,Travel,250
-# Each line represents:
-# Date, Category, Amount
-# ________________________________________
-# Tasks
-# Write a Python program that:
-# 1.	Reads all records from expenses.csv.
-# 2.	Calculates:
-# o	Total expense for the month.
-# o	Total expense per category.
-# o	Day with the highest total expense.
-# 3.	Writes a summary report into a new file monthly_summary.txt in the following format:
-# ================= Expense Summary (October 2025) =================
-# Total Monthly Expense: ₹1650
-
-# Category-wise Breakdown:
-# Food          : ₹600
-# Travel        : ₹350
-# Shopping      : ₹400
-# Entertainment : ₹300
-
-# Highest Spending Day: 2025-10-02 (₹550)
-# =================================================================
-
 
 import os
 import csv
